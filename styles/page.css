@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body.light-mode {
+  background-color: white;
+  color: black;
+}
+
+body.light-mode p,
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode b {
+  color: rgb(255, 255, 255);
+  font-family: "Lavishly Yours", cursive;
+  background-image: linear-gradient(to bottom, rgb(203, 198, 235), rgb(70, 217, 217));
+}
+
+body.light-mode footer {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+body.dark-mode {
+  background-color: black;
+  color: aliceblue;
+}
+
+body.dark-mode p,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode b {
+  color: rgb(255, 255, 255);
+}
+
+body.dark-mode footer {
+  background-color: rgb(167, 167, 167);
+  color: rgb(255, 255, 255);
+}
+
+.poem {
+  text-align: center;
+}
+
+#counter {
+  border-width: 3px;
+  border-color: rgb(84, 193, 243);
+  border-style: solid;
+
+  min-width: 60px;
+  max-width: 230px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  
+  background-color: #07203aaa;
+  color: white;
+  
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#calculator {
+  border-width: 8px;
+  border-color: rgb(154, 223, 255);
+  border-style: solid;
+
+  min-width: 60px;
+  max-width: 270px;
+}
+
+#calculator-button {
+  border-width: 2px;
+  border-color: rgb(183, 231, 254);
+  border-style: solid;
+
+  min-width: 60px;
+  max-width: 230px;
+}
+
+
+button:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+}
+
+button:active {
+  transform: scale(0.95);
+}
